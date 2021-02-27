@@ -21,8 +21,6 @@ class Loading extends React.Component {
           className={override}
           sizeUnit={"px"}
           size={15}
-          //   margin={-50}
-          //   top={-50}
           color={"#123abc"}
           loading={this.props.loading}
         />
