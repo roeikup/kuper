@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.label-class {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  top: 20%;
+  left: 60%;
+  margin: -50px 0px 0px -280px;
+}
+.label-class-off {
+  display: none;
+}
+.img-class-on {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  top: 30%;
+  left: 60%;
+  margin: -100px 0px 0px -270px;
+}
+.img-class-off {
+  display: none;
+}
+.App-Footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+.form-class-off {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0px 0px -270px;
+}
+.form-class-on {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 1%;
+}
+.App-input {
+  vertical-align: bottom;
+}
+.panel-group {
+  display: flex;
+  flex-direction: column;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+.time-continer {
+  width: 127vmin;
+  height: 8vmin;
+  margin: 0.1cm 0.1cm;
+}
+
+.span-tab {
+  margin: 0.2cm 2cm;
+}
+.span-tab-header {
+  margin: 0.5cm 1cm;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.tabs-class {
+  border: 0.5px solid rgb(222, 222, 228);
+  width: 128vmin;
+  margin: 0.1cm 8cm;
+  position: relative;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  bottom: -1px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: rgb(91, 129, 185);
+  border-color: rgb(45, 42, 212);
+  color: black;
+  margin: 0.2cm 0.1cm;
+}
+.list-group-item {
+  display: contents;
+  height: 100%;
+}
